@@ -45,6 +45,10 @@ body{
     text-transform: uppercase;
     color: #4d5ae5;
       }
+   .header-logo{
+    padding: 24px 0;
+    margin-right: 76px;
+   }   
   .logo-part{
     font-weight: 700;
     font-size: 18px;
@@ -56,8 +60,11 @@ body{
   .nav-list{
     display: flex;
     align-items: center;
+    gap: 40px;
   }
   .nav-link{
+    display: block;
+    padding: 24px 0;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
@@ -73,11 +80,15 @@ body{
   .contacts-list{
     display: flex;
     align-items: center;
+    gap: 40px;
   }
   .contacts{
     font-style: normal;
+    margin-left: auto;
   }
   .contacts-link{
+    display: block;
+    padding: 24px 0;
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
