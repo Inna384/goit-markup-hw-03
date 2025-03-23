@@ -243,6 +243,11 @@ body{
 }
 .page-footer{
   background-color: #2e2f42;
+  padding: 120px 0;
+}
+.footer-container{
+  display: inline-block;
+  align-items: center;
 }
 .logo-footer{
   font-family: "Raleway", sans-serif;
@@ -267,4 +272,5 @@ body{
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #f4f4fd;
+  width: 264px;
 }
