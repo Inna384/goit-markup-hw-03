@@ -201,6 +201,16 @@ body{
   text-align: center;
   color: #434455;
    }
+.portfolio{
+  padding: 120px 0;
+}
+.portfolio-list{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  row-gap: 48px;
+  column-gap: 24px;
+}
 .portfolio-title{
   font-weight: 700;
   font-size: 36px;
@@ -209,6 +219,13 @@ body{
   text-align: center;
   color: #2e2f42;
   text-transform: capitalize;
+  margin-bottom: 72px;
+}
+.portfolio-item-text{
+  padding-top: 32px;
+  padding-bottom: 32px;
+  padding-left: 16px;
+  row-gap: 8px
 }
 .portfolio-subtitle{
   font-weight: 500;
