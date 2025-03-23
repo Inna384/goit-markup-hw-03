@@ -97,6 +97,11 @@ body{
   }
 .page{
   background-color: #2e2f42;
+  padding: 188px 0;
+      }
+.page-container{
+  display: block;
+  align-items: center;
       }
 .page-title{
         font-weight: 700;
@@ -105,14 +110,21 @@ body{
         letter-spacing: 0.02em;
         text-align: center;
         color: #fff;
+        max-width: 496px;
+        margin-bottom: 48px;
       }
 .page-btn{
+   display: block;
    font-weight: 500;
    font-size: 16px;
    line-height: 1.5;
    letter-spacing: 0.04em;
    color: #fff;
    background-color: #4d5ae5;
+   border-radius: 4px;
+   padding: 16px 32px;
+   width: 169px;
+   height: 56px;
       }
 .page-btn:hover,
 .page-btn:focus{
@@ -188,10 +200,11 @@ body{
   letter-spacing: 0.02em;
   text-align: center;
   color: #2e2f42;
+  margin-bottom: 8px;
  }
  .team-item-text{
   padding: 32px 0;
-  margin-bottom: 8px;
+  
  }
 .team-text{
   font-weight: 400;
@@ -225,7 +238,7 @@ body{
   padding-top: 32px;
   padding-bottom: 32px;
   padding-left: 16px;
-  margin-bottom: 8px;
+  
 }
 .portfolio-subtitle{
   font-weight: 500;
@@ -233,6 +246,7 @@ body{
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
+  margin-bottom: 8px;
 }
 .portfolio-text{
   font-weight: 400;
@@ -243,7 +257,7 @@ body{
 }
 .page-footer{
   background-color: #2e2f42;
-  padding: 120px 0;
+  padding: 100px 0;
 }
 .footer-container{
   display: inline-block;
@@ -257,6 +271,10 @@ body{
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #4d5ae5;
+}
+.page-logo-footer{
+  display: inline-block;
+  margin-bottom: 16px;
 }
 .footer-part{
   font-weight: 700;
@@ -273,5 +291,4 @@ body{
   letter-spacing: 0.02em;
   color: #f4f4fd;
   width: 264px;
-  margin-bottom: 16px;
-}
+  }
