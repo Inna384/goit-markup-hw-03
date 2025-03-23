@@ -187,6 +187,9 @@ body{
   background-color: #fff;
   border-radius: 0 0 4px 4px;
 }
+.images{
+  display: block;
+}
 .team-title{
   font-weight: 700;
   font-size: 36px;
@@ -240,6 +243,7 @@ body{
 }
 .portfolio-item-text{
   border: 1px solid #e7e9fc;
+  border-top: none;
   padding: 32px 16px;
    
 }
